@@ -11,7 +11,7 @@ while True:
     band_name = input("Enter Band Name: ")
 
     if band_name is "":
-        print("Thanks for visiting! Goodbye")
+        print("Thanks for visiting! Goodbye.")
         break
 
     band_name_url = urllib.parse.quote(band_name)   # convert to URL format
@@ -26,7 +26,7 @@ while True:
     try:
         page_times.has_attr('datetime')
     except AttributeError:
-        print("No concerts for this band exist, try again")
+        print("No concerts for this band exist, try again.")
         continue
 
     concert_datetime = page_times['datetime']
