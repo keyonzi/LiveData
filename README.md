@@ -9,10 +9,22 @@ This is a simple tool that will search a small ticket site and return the first 
 result if there is no tour for whatever the query may be. Either the band doens't exist, or they aren't touring. As I said,
 it is a simple implementation.
 
+STEPS:
 
 Install required packages by running "pip install -r requirements.txt"
-
 Run live_data_test.py
-When prompted "Enter Band Name:", type in an existing band name that is currently touring and hit 'enter'.
 
-Program will return with the first tour date
+**Existing Band Touring**
+When prompted "Enter Band Name:", type in *the cure* and hit 'enter' key
+Program will return with the first tour date of 10/6/22 in readable format
+
+**Existing Band Touring #2**
+When prompted "Enter Band Name:", type in *imagine dragons* and hit 'enter'
+Program will return with the first tour date of 06/01/22 readable format
+
+**Non-existing Band**
+When prompted "Enter Band Name:", type in *scooby* and hit 'enter'
+Program will return *No concerts for this band exist, try again*
+Program will prompt "Enter Band Name:" again
+Enter nothing into prompt and hit 'enter' key
+Program will return "Thanks for visiting! Goodbye"
