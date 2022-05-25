@@ -1,4 +1,4 @@
-# Live Data TEst
+# Live Data Test
 # 
 # # 
 ## Interview test
@@ -16,11 +16,11 @@ Run live_data_test.py
 
 **Existing Band Touring**<br>
 When prompted **Enter Band Name:**, type in "the cure" and hit *enter* key<br>
-Program will return with the first tour date of 10/6/22 in readable format
+Program will return with the first tour date of 10/6/22 in a readable format
 
 **Existing Band Touring #2**<br>
 When prompted **Enter Band Name:**, type in "imagine dragons" and hit *enter*<br>
-Program will return with the first tour date of 06/01/22 readable format
+Program will return with the first tour date of 06/01/22 in a readable format
 
 **Non-existing Band**<br>
 When prompted **Enter Band Name:**, type in "scooby" and hit 'enter'<br>
